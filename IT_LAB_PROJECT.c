@@ -11,7 +11,7 @@ int isValid(int row, int col)
    // is in range
    return (row >= 0) && (row < 9) &&
           (col >= 0) && (col < 9);
-}
+
 int isMine(int row, int col, char board[9][9])
 {
    if (board[row][col] == '*')
