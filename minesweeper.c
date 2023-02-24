@@ -9,7 +9,7 @@ int isValid(int row, int col)
     // Returns true if row number and column number
     // is in range
     return (row >= 0) && (row < 9) &&
-           (col >= 0) && (col < 9);
+    (col >= 0) && (col < 9);
 }
 int isMine(int row, int col, char board[9][9])
 {
